@@ -6,6 +6,10 @@ pipeline {
             steps {
                 sh 'python --version'
             }
+        stage('deploy') {
+            steps {
+                echo "I am happy"
+            }
         }
     }
 }
